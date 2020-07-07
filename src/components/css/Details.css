@@ -1,0 +1,50 @@
+.details{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.details img{
+    max-width: 500px;
+    min-width: 290px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    margin: 25px;
+}
+.details .box{
+    max-width: 500px;
+    min-width: 290px;
+    margin: 25px;
+}
+.box .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.box .row h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.box .row span{
+    color: crimson;
+}
+.box .colors button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    outline: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.box p{
+    line-height: 1.5;
+    margin: 15px 0;
+}
+.box .cart{
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
