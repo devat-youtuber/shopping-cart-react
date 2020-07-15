@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: white !important;
 }
 .card{
     min-width: 300px;

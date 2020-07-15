@@ -1,0 +1,9 @@
+#about{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px auto;
+    margin: 25px 10px;
+    color: black
+}
