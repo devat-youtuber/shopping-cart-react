@@ -4,6 +4,8 @@ header{
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+    
+
 }
 header .logo a{
     text-decoration: none;
@@ -29,6 +31,7 @@ nav ul li a:hover{
 nav .nav-cart{
     cursor: pointer;
     position: relative;
+   
 }
 nav .nav-cart span{
     position: absolute;
@@ -75,3 +78,5 @@ header .close{
         left: 0;
     }
 }
+
+

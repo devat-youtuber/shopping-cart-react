@@ -1,0 +1,10 @@
+#contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: auto;
+    margin: 50px 10px;
+    text-overflow: scroll;
+    color:black
+}
