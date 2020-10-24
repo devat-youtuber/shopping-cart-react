@@ -10,8 +10,8 @@ export class Section extends Component {
     render() {
         return (
             <section>
-                <Route path="/shopping-cart-react" component={Products} exact />
-                <Route path="/shopping-cart-react/product" component={Products} exact />
+                <Route path="/shopping-cart-react" component={Products} />
+                <Route path="/shopping-cart-react/product" component={Products}  />
                 <Route path="/shopping-cart-react/product/:id" component={Details} />
                 <Route path="/shopping-cart-react/cart" component={Cart} />
                 <Route path="/shopping-cart-react/payment" component={Payment} />
