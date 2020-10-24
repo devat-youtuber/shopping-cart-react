@@ -44,7 +44,7 @@ export class Details extends Component {
                                 <Colors colors={item.colors}/>
                                 <p>{item.description}</p>
                                 <p>{item.content}</p>
-                                <Link to="/shopping-cart-react/cart" className="cart" onClick={() => addCart(item._id)}>
+                                <Link to="/cart" className="cart" onClick={() => addCart(item._id)}>
                                     Add to cart
                                 </Link>
                             </div>
