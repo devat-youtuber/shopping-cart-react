@@ -29,11 +29,11 @@ export class Header extends Component {
                     <img src={Menu} alt="" width="20"/>
                 </div>
                 <div className="logo">
-                    <h1><Link to="/shopping-cart-react/">Nike</Link></h1>
+                    <h1><Link to="/shopping-cart-react">Nike</Link></h1>
                 </div>
                 <nav>
                     <ul className={toggle ? "toggle" : ""}>
-                        <li><Link to="/shopping-cart-react/">Home</Link></li>
+                        <li><Link to="/shopping-cart-react">Home</Link></li>
                         <li><Link to="/shopping-cart-react/product">Product</Link></li>
                         <li><Link to="/shopping-cart-react/contact">Contact</Link></li>
                         <li><Link to="/shopping-cart-react/about">About</Link></li>
