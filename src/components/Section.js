@@ -11,7 +11,7 @@ export class Section extends Component {
         return (
             <section>
                 <Switch>
-                    <Route path="/shopping-cart-react" component={Products} />
+                    <Route path="/" component={Products} />
                     <Route path="/shopping-cart-react/product" component={Products}  />
                     <Route path="/shopping-cart-react/product/:id" component={Details} />
                     <Route path="/shopping-cart-react/cart" component={Cart} />
