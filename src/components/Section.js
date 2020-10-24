@@ -10,11 +10,11 @@ export class Section extends Component {
     render() {
         return (
             <section>
-                <Route path="/" component={Products} exact />
-                <Route path="/product" component={Products} exact  />
-                <Route path="/product/:id" component={Details} exact />
-                <Route path="/cart" component={Cart}  exact/>
-                <Route path="/payment" component={Payment} exact />
+                    <Route path="/shopping-cart-react/" component={Products} exact />
+                    <Route path="/shopping-cart-react/product" component={Products} exact  />
+                    <Route path="/shopping-cart-react/product/:id" component={Details} exact />
+                    <Route path="/shopping-cart-react/cart" component={Cart}  exact/>
+                    <Route path="/shopping-cart-react/payment" component={Payment} exact />
             </section>
         )
     }

@@ -14,12 +14,12 @@ export class Products extends Component {
                {
                    products.map(product =>(
                        <div className="card" key={product._id}>
-                           <Link to={`/product/${product._id}`}>
+                           <Link to={`/shopping-cart-react/product/${product._id}`}>
                                <img src={product.src} alt=""/>
                            </Link>
                            <div className="content">
                                <h3>
-                                   <Link to={`/product/${product._id}`}>{product.title}</Link>
+                                   <Link to={`/shopping-cart-react/product/${product._id}`}>{product.title}</Link>
                                </h3>
                                <span>${product.price}</span>
                                <p>{product.description}</p>
